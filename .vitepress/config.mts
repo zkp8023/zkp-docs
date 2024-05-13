@@ -61,23 +61,11 @@ export default defineConfigWithTheme ({
           name: 'a place nearby',
           src: '/docs/nearby.mp3',
         },
-        // {
-        //   name: 'flower dance',
-        //   src: 'http://m801.music.126.net/20240508112638/6ca06de1b610b3116bc2594453067ebb/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/29521701633/054e/269e/228b/aa5ae665123186c9a37fd854217825d6.mp3',
-        // },
-        // {
-        //   name: '城南花已开',
-        //   src: 'http://ws.stream.qqmusic.qq.com/M500004FuPTN0e7m7x.mp3?guid=10000&vkey=100D0A2AA2E794F0CE704FE182E3F8C7E8EE3A44A662BBAEB08087FE1159137F2A3342C153B5C70FED8FE84506AA4E93CB51A84A5D2A0002&uin=&fromtag=120042',
-        // },
-        // {
-        //   name: 'until you',
-        //   src: 'https://sr-sycdn.kuwo.cn/620f9d9be3de0c26208627aa963f333d/663aec11/resource/n2/89/56/529354544.mp3',
-        // },
       ],
       autoplay: true,
     },
   },
-  head: [['link', { rel: 'icon', href: '/docs/lufei.png' }]],
+  head: [['link', { rel: 'icon', href: '/lufei.png' }]],
 
   markdown: {
     lineNumbers: true,

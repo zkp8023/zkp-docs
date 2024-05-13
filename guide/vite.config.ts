@@ -13,6 +13,7 @@ export default defineConfig(() => {
     resolve: {
       alias: {
         '@/ex': '../examples/',
+        '@img': './images/',
       },
     },
     build: {
