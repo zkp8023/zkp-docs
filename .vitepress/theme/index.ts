@@ -9,6 +9,7 @@ import '@escook/vitepress-theme/style.css'
 import './style/index.css'
 
 export default {
+  ...DefaultTheme,
   extends: escookTheme,
   Layout: () => {
     return h(escookTheme.Layout, null, {

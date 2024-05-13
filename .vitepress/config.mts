@@ -5,7 +5,7 @@ import { nav, sidebar, socialLinks } from './configs'
 
 export default defineConfigWithTheme ({
   title: '给我一个div',
-  base: '/docs/',
+  // base: '/docs/',
   srcDir: 'guide',
   // outDir: '../dist',
   metaChunk: true,
