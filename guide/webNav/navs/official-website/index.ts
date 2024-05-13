@@ -7,7 +7,7 @@ export { toolsList } from './tools'
 export const vueList: ICard2[] = [
   {
     name: 'Vue',
-    img: '/assets/images/official/Vue.svg',
+    img: '/images/official/Vue.svg',
     src: 'https://cn.vuejs.org/guide/quick-start.html',
   },
   {
