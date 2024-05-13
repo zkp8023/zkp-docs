@@ -17,7 +17,7 @@ export default {
     })
   },
   enhanceApp: async (ctx) => {
-    // DefaultTheme.enhanceApp(ctx)
+    DefaultTheme.enhanceApp(ctx)
     // @ts-expect-error
     useComponents(ctx.app)
   },
