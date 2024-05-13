@@ -1,14 +1,14 @@
 export const openSourceList: ICard2[] = [
   {
     name: 'Vben-Admin',
-    img: '/docs/images/other/vben.png',
+    img: '/assets/images/other/vben.png',
     desc: '老牌强大的后台模板',
     tooltip: 'Vite + Vue3  + Antdv + TS + Pinia + UnoCss',
     src: 'https://doc.vvbin.cn/',
   },
   {
     name: 'Antdv Pro',
-    img: '/docs/images/other/antv-pro.svg',
+    img: '/assets/images/other/antv-pro.svg',
     tooltip: 'Vite + Vue3 + Unocss + Antdv4 + TS + Pinia',
     desc: 'Unocss、 Antdv4',
     src: 'https://docs.antdv-pro.com/guide/introduction.html',
@@ -16,21 +16,21 @@ export const openSourceList: ICard2[] = [
 
   {
     name: 'Soybean Admin',
-    img: '/docs/images/other/soybean.svg',
+    img: '/assets/images/other/soybean.svg',
     desc: ' Unocss、 Naive UI',
     tooltip: 'Vite + Vue3 + Unocss + Naive UI + TS + Pinia',
     src: 'https://docs.soybean.pro/zh/guide/introduction.html',
   },
   {
     name: 'Pure Admin',
-    img: '/docs/images/other/pure-admin.svg',
+    img: '/assets/images/other/pure-admin.svg',
     tooltip: 'Vite + Vue3 + Tailwindcss + Element-Plus + TS + Pinia',
     desc: 'Tailwindcss、 Element-Plus',
     src: 'https://yiming_chang.gitee.io/pure-admin-doc/pages/introduction/',
   },
   {
     name: 'V3-Admin-Vite',
-    img: '/docs/images/other/v3-admin.png',
+    img: '/assets/images/other/v3-admin.png',
     imgStyle: { width: '140px' },
     desc: ' UnoCss、 Element-Plus',
     tooltip: 'Vite + Vue3 + UnoCss + Element-Plus + TS + Pinia',
@@ -38,14 +38,14 @@ export const openSourceList: ICard2[] = [
   },
   {
     name: 'Geeker-Admin',
-    img: '/docs/images/other/geeker.gif',
+    img: '/assets/images/other/geeker.gif',
     desc: '很亲民的一个开源后台,也有对应的react版本',
     tooltip: 'Vite + Vue3  + Element-Plus + TS + Pinia',
     src: 'https://docs.spicyboy.cn/guide/introduce.html',
   },
   {
     name: 'Admin Work',
-    img: '/docs/images/other/admin-work.png',
+    img: '/assets/images/other/admin-work.png',
     imgStyle: { width: '80px' },
     desc: 'Naive UI、 Element-Plus、 Antd多版本',
     // tooltip: 'Vite + Vue3  + Element-Plus + TS + Pinia',
@@ -53,14 +53,14 @@ export const openSourceList: ICard2[] = [
   },
   {
     name: 'Gin-Vue-Admin',
-    img: '/docs/images/other/gin-vue-admin.png',
+    img: '/assets/images/other/gin-vue-admin.png',
     desc: '全栈项目,文件上传,断点续传',
     tooltip: 'Vite + Vue3  + Element-Plus + TS + Pinia + Tailwindcss',
     src: 'https://www.gin-vue-admin.com/',
   },
   {
     name: 'Vue3-Antv-Admin',
-    img: '/docs/images/other/vue3-antv-admin.png',
+    img: '/assets/images/other/vue3-antv-admin.png',
     imgStyle: { width: '70px' },
     // desc: '弹框封装',
     tooltip: 'Vite + Vue3  + Antdv4 + TS + Pinia + UnoCss',
@@ -68,14 +68,14 @@ export const openSourceList: ICard2[] = [
   },
   {
     name: 'Fantastic-admin',
-    img: '/docs/images/other/Fantastic-admin.png',
+    img: '/assets/images/other/Fantastic-admin.png',
     desc: '默认Element-Plus, 多版本',
     tooltip: 'Vite + Vue3  + Element-Plus + TS + Pinia + UnoCss',
     src: 'https://fantastic-admin.github.io/',
   },
   {
     name: 'Slash Admin',
-    img: '/docs/images/other/slash-admin.svg',
+    img: '/assets/images/other/slash-admin.svg',
     desc: 'react zustand',
     tooltip: 'React 18、Vite、TypeScript、 Ant Design ',
     src: 'https://docs-admin.slashspaces.com/',

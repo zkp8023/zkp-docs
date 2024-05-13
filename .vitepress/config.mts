@@ -5,11 +5,10 @@ import { nav, sidebar, socialLinks } from './configs'
 
 export default defineConfigWithTheme ({
   title: '给我一个div',
-  // base: '/docs/',
   srcDir: 'guide',
   // outDir: '../dist',
   metaChunk: true,
-  lastUpdated: true,
+  // lastUpdated: true,
   extends: escookConfig,
   themeConfig: {
     search: {
@@ -59,7 +58,7 @@ export default defineConfigWithTheme ({
       list: [
         {
           name: 'a place nearby',
-          src: '/docs/nearby.mp3',
+          src: '/nearby.mp3',
         },
       ],
       autoplay: true,
