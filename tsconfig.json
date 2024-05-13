@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "preserve",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "useDefineForClassFields": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "paths": {
+      "@ex/*": [
+        "./examples/*"
+      ]
+    },
+    "resolveJsonModule": true,
+    "checkJs": false,
+    "strict": true,
+    "noImplicitAny": false,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "types": [
+    "node",
+    "vite/client"
+  ],
+  "include": [
+    "guide",
+    "examples",
+    ".vitepress"
+    // "../docs/**/*.ts",
+    // "../docs/**/*.d.ts",
+    // "../docs/**/*.tsx",
+    // "../docs/**/*.vue",
+    // "src/**/*.ts",
+  ],
+  "exclude": [
+    "docs/.vitepress"
+  ]
+}
