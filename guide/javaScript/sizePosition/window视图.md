@@ -8,7 +8,7 @@
 - 宽度包含滚动条宽度(如果存在)
 - 返回值**不带**单位(值是以px为单位的纯数字)
 :::
-<DemoBlock><a-image :preview="true" src="/assets/images/javaScript/window-inner.png" /></DemoBlock>
+<DemoBlock><a-image :preview="true" src="/images/javaScript/window-inner.png" /></DemoBlock>
 
 ## 2.outerWidth 、outerHeight
  > <b style="color:red;">window.outerWidth 和 window.outerHeight</b> 表示整个浏览器的宽高（以像素为单位），包括侧边栏（如果存在）、窗口镶边（Window Chrome）和窗口调正边框，包含调试窗及浏览器边框。
@@ -18,7 +18,7 @@
 - 宽度包含滚动条宽度(如果存在)
 - 返回值**不带**单位(值是以px为单位时的纯数字)
 :::
-<DemoBlock><a-image :preview="true" src="/assets/images/javaScript/window-outer.png" /></DemoBlock>
+<DemoBlock><a-image :preview="true" src="/images/javaScript/window-outer.png" /></DemoBlock>
 
 ## 3. screenLeft、screenTop、screenX、screenY
 
@@ -36,7 +36,7 @@
 
     **备注：** screenLeft 和 screenTop 只是 Window.screenX,window.screenY 属性的别名，最初只被 IE 浏览器所支持。现在主流的浏览器都已支持该属性,他们的表现一样
 
-<DemoBlock><a-image :preview="true" src="/assets/images/javaScript/window-screen.png" /></DemoBlock>
+<DemoBlock><a-image :preview="true" src="/images/javaScript/window-screen.png" /></DemoBlock>
 
 ## 4. scrollX、scrollY、pageXOffset、pageYOffset
 
@@ -48,7 +48,7 @@
  - 都是**像素数**
  - 返回值有小数(可能会有很长的小数...)
 :::
-<DemoBlock><a-image :preview="true" src="/assets/images/javaScript/window-scroll.png" /></DemoBlock>
+<DemoBlock><a-image :preview="true" src="/images/javaScript/window-scroll.png" /></DemoBlock>
 
 ## 5. 总结
 |      属性       |          说明          |

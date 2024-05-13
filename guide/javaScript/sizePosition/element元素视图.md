@@ -63,7 +63,7 @@ offsetTop: 相对于offsetParent上边界的偏移量
 ## 4.getBoundingClientRect()
 
 getBoundingClientRect() 方法放回一组元素的左、上、右及下分别相对浏览器可视窗口的位置的集合 [DOMRect](https://developer.mozilla.org/zh-CN/docs/Web/API/DOMRect)。
-<img src="/assets/images/javaScript/getBoundingClientRect.png">
+<img src="/images/javaScript/getBoundingClientRect.png">
 
 ```js
 const foo = document.getElementById('foo')
