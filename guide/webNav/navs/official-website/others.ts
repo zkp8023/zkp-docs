@@ -29,6 +29,13 @@ export const otherOfficial: ICard2[] = [
   {
     name: 'VitePress',
     img: '/images/official/vitepress.png',
+    imgStyle: { width: '100px' },
+    desc: '简单易用的部署平台',
+    src: 'https://docs.render.com/',
+  },
+  {
+    name: 'Render',
+    img: '/images/official/Render.svg',
     src: 'https://vitepress.dev/zh/guide/what-is-vitepress',
   },
 

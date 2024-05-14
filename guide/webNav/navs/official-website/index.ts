@@ -120,7 +120,7 @@ export const reactList: ICard2[] = [
     name: 'ahooks',
     img: '/images/official/ahooks.svg',
     imgStyle: { width: '90px' },
-    src: 'https://ahooks.gitee.io/zh-CN/guide',
+    src: 'https://ahooks.js.org/zh-CN',
     desc: 'react-hooks',
   },
   {
