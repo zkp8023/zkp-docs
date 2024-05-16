@@ -82,6 +82,13 @@ export const reactList: ICard2[] = [
     zhSrc: 'https://react.nodejs.cn/',
     desc: '',
   },
+  {
+    name: 'Next.js',
+    img: '/images/official/nextjs.svg',
+    enSrc: 'https://nextjs.org/',
+    // enSrc: 'https://react.docschina.org',
+    zhSrc: 'https://next.nodejs.cn/docs',
+  },
 
   {
     name: 'React-Router6',
@@ -164,8 +171,6 @@ export const reactList: ICard2[] = [
     src: 'https://reactnavigation.org/docs/getting-started/',
     tooltip: 'React Native 应用程序的路由和导航',
   },
-  // @ts-expect-error
-  {},
   // @ts-expect-error
   {},
 ]

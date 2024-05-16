@@ -21,6 +21,13 @@ export const otherOfficial: ICard2[] = [
     desc: 'ECMA262文档',
   },
   {
+    name: 'Three.js',
+    img: '/images/official/threejs.svg',
+    zhSrc: 'https://threejs.org/docs/index.html#manual/zh/introduction/Installation',
+    otherStr: 'http://www.yanhuangxueyuan.com/threejs/docs/index.html#manual/zh/introduction/Installation',
+    otherStrDesc: '社区中文',
+  },
+  {
     name: 'Astro',
     img: '/images/official/Astro.svg',
     imgStyle: { width: '100px' },
@@ -29,14 +36,14 @@ export const otherOfficial: ICard2[] = [
   {
     name: 'VitePress',
     img: '/images/official/vitepress.png',
-    imgStyle: { width: '100px' },
-    desc: '简单易用的部署平台',
-    src: 'https://docs.render.com/',
+    src: 'https://vitepress.dev/zh/',
   },
   {
     name: 'Render',
     img: '/images/official/Render.svg',
-    src: 'https://vitepress.dev/zh/guide/what-is-vitepress',
+    imgStyle: { width: '100px' },
+    desc: '简单易用的部署平台',
+    src: 'https://docs.render.com/',
   },
 
   {
@@ -102,4 +109,6 @@ export const otherOfficial: ICard2[] = [
     img: '/images/official/socketIo.svg',
     src: 'https://socket.nodejs.cn/',
   },
+  // @ts-expect-error
+  {},
 ]
