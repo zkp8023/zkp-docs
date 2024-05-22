@@ -8,7 +8,8 @@ export const vueList: ICard2[] = [
   {
     name: 'Vue',
     img: '/images/official/Vue.svg',
-    src: 'https://cn.vuejs.org/guide/quick-start.html',
+    zhSrc: 'https://cn.vuejs.org/guide/quick-start.html',
+    enSrc: 'https://vuejs.org/',
   },
   {
     name: 'Nuxt',

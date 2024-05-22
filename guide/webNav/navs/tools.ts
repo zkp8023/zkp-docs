@@ -88,13 +88,7 @@ export const codeTools: ICard2[] = [
 
 // 工具集
 export const toolList: ICard2[] = [
-  {
-    name: '爱达杂货铺',
-    desc: '酷站,素材,工具...',
-    img: '/images/tools/aida.svg',
-    src: 'https://adzhp.xyz/',
-    tooltip: '酷站,素材,工具,软件资源,影视...',
-  },
+
   {
     name: '前端森林',
     desc: '酷站,博客,算法,图片,代码,工具',
@@ -115,9 +109,14 @@ export const toolList: ICard2[] = [
   },
   {
     name: 'Css Portal---Css工具集合',
-    desc: `超多工具集合,超多生成器`,
+    desc: `超多工具集合 , 超多生成器`,
     img: '/images/tools/css-portal.png',
     src: 'https://www.cssportal.com/css-animated-text-generator/',
+  },
+  {
+    name: 'Css可视化',
+    desc: '动画 , loader , background...',
+    src: 'https://css.bqrdh.com',
   },
 
   {
@@ -234,6 +233,18 @@ export const codeGround: ICard2[] = [
 // 其他
 export const other: ICard2[] = [
   {
+    name: '爱达杂货铺',
+    desc: '酷站,素材,工具...',
+    img: '/images/tools/aida.svg',
+    src: 'https://adzhp.site/',
+    tooltip: '酷站,素材,工具,软件资源,影视...',
+  },
+  {
+    name: '设计师的导航',
+    desc: '设计资源,工具, 配色 ,素材, ai',
+    src: 'https://16map.com/',
+  },
+  {
     name: 'scoop',
     desc: 'Windows命令行安装程序',
     img: '/images/tools/scoop.svg',
@@ -305,4 +316,6 @@ export const other: ICard2[] = [
     img: '/images/tools/codeImage.svg',
     src: 'https://codeimg.io/',
   },
+  // @ts-expect-error
+  {},
 ]

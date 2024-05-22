@@ -75,4 +75,9 @@ export const vuePlugins: ICard[] = [
     desc: 'vue3瀑布流布局插件',
     src: 'https://github.com/heikaimu/vue3-waterfall-plugin',
   },
+  {
+    name: 'vue-plugin-hiprint',
+    desc: 'vue打印',
+    src: 'https://github.com/CcSimple/vue-plugin-hiprint',
+  },
 ]

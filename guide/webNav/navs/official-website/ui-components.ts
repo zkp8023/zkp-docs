@@ -101,7 +101,7 @@ export const otherComs: ICard2[] = [
     name: 'element-plus',
     img: '/images/official/element-plus.svg',
     imgStyle: { width: '100px' },
-    src: 'https://element-plus.gitee.io/zh-CN/component/button.html',
+    src: 'https://element-plus.org/zh-CN/',
     desc: 'vue',
   },
   {
