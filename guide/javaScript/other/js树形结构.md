@@ -178,6 +178,14 @@ const treeToArr = (data) => {
 }
 ```
 
+### 1.4 flatMap
+```ts
+export function getFlatList<T extends { children: T }>(menuList: T[]): T[] {
+  const newMenuList: T[] = JSON.parse(JSON.stringify(menuList))
+  return newMenuList.flatMap(item => [item, ...(item.children ? getFlatList(item.children) : [])])
+}
+```
+
 ## 2.扁平数据树形化
 
 :::demo

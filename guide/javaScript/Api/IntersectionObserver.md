@@ -24,13 +24,13 @@
 5. **回调函数(callback)** --- 为该 API 配置的函数，会在设定的条件下触发。
 :::
 
-## 2. IntersectionObserver构造函数
+## 3. IntersectionObserver构造函数
 
 > 创建一个新的 IntersectionObserver 对象，当其监听到目标元素的可见部分（的比例）超过了一个或多个阈值（threshold）时，会执行指定的回调函数。
 
 <a-image :preview="true" src="/docs/images/javaScript/intersectionObserver.png"/>
 
-```ts
+```Text
 /**
  * 返回一个可以使用规定阈值监听目标元素可见部分与root交叉状况的新的
  * IntersectionObserver 实例对象。
@@ -39,7 +39,7 @@
 const observer = new IntersectionObserver(callback[, options]);
 ```
 
-### 2.1 IntersectionObserver参数
+### 3.1 IntersectionObserver参数
 :::details 点击查看参数
 1. `callback`(**必选参数**) --- 当交叉比超过指定阈值触发回调函数，此函数可接受两个参数：
    - `entries` --- 由`IntersectionObserverEntry`对象(下面介绍)组成的数组,但每个被触发的阈值，都或多或少与指定阈值有偏差。
@@ -55,10 +55,10 @@ const observer = new IntersectionObserver(callback[, options]);
      - 当传入数值类型时，只会触发一次。
      - 当传入数组类型时，可触发多次。如：[0,0.25,0.5,0.75,1]表示目标元素在根元素的<b style="color:red">可见程度</b>每多 25%(自身高度) 就执行一次回调
 :::
-## 3 IntersectionObserver实例对象
+## 4 IntersectionObserver实例对象
 >一个可以使用规定阈值监听目标元素可见部分与`root`交叉状况的新的`IntersectionObserver` 实例。调用自身的observe() 方法开始使用规定的阈值监听指定目标。
 
-### 3.1 实例属性及方法
+### 4.1 实例属性及方法
 <a-image :preview="true" src="/docs/images/javaScript/intersectionObserver实例对象属性和方法.png"/>
 
 :::details 实例对象参数及方法
@@ -79,13 +79,13 @@ const observer = new IntersectionObserver(callback[, options]);
 4. `disconnect()`  : 终止对所有目标元素可见性变化的观察。
 :::
 
-## 4. IntersectionObserverEntry对象
+## 5. IntersectionObserverEntry对象
 
 :::tip
 `IntersectionObserverEntry`对象所组成的集合作为 `entries` 参数被传递到一个 IntersectionObserver 的回调函数中(构造函数中的`callback`的参数entries); 此外，这些对象在外部只能通过调用`IntersectionObserver实例.takeRecords()` 来获取。
 :::
 
-### 4.1 IntersectionObserverEntry对象属性
+### 5.1 IntersectionObserverEntry对象属性
  **几个可能会用到的属性 :**
 | 属性                   | 说明                                                                                                                     |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -96,17 +96,17 @@ const observer = new IntersectionObserver(callback[, options]);
 | **intersectionRect**   | 返回目标元素与视口（或根元素）的交叉区域的信息                                                                           |
 | **time**               | 返回一个记录从`IntersectionObserver`的时间原点到交叉被触发的时间的时间戳                                                 |
 
-## 5. 示例 无限滚动
+## 6. 示例 无限滚动
 
 <DemoBlock><IntersectionObserver /></DemoBlock>
 
 :::details 查看代码
-```ts
+```vue
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
-import LoadingCom from "../common/mouseLoading.vue";
-import { message } from "ant-design-vue";
-const values = ref(5);
+import { onMounted, ref } from 'vue'
+import { message } from 'ant-design-vue'
+import LoadingCom from '../common/mouseLoading.vue'
+const values = ref(5)
 const flag = ref(false)
 const observe = ref<IntersectionObserver>()
 const target = ref<HTMLDivElement>()
@@ -122,38 +122,40 @@ const stopHandle = () => {
 onMounted(() => {
   // 创建observer实例配置对象 可以不传
   const options: IntersectionObserverInit = {
-    root: root.value, //目标元素所在的根元素
+    root: root.value, // 目标元素所在的根元素
     // threshold: 0.1, //阀值 目标元素出现在root中到达 10%时执行callback
-  };
+  }
   const callback: IntersectionObserverCallback = (entries, observer) => {
-    console.log("entries", entries); // 被监听的IntersectionObserverEntry对象数组
-    console.log("observer", observer); //当前的监听实例对象
+    console.log('entries', entries) // 被监听的IntersectionObserverEntry对象数组
+    console.log('observer', observer) // 当前的监听实例对象
     entries.forEach((it) => {
       // 模拟延迟加载
       setTimeout(() => {
         if (it.isIntersecting) {
-          values.value += 5;
-          message.success("加载数据成功");
+          values.value += 5
+          message.success('加载数据成功')
         }
-      }, 500);
-    });
-  };
+      }, 500)
+    })
+  }
   // 创建IntersectionObserver实例对象
-  observe.value = new IntersectionObserver(callback, options);
+  observe.value = new IntersectionObserver(callback, options)
   // 监听目标元素 可监听多个
-  observe.value.observe(target.value!);
-});
+  observe.value.observe(target.value!)
+})
 </script>
 
 <template>
   <div>
-    <a-button @click="stopHandle">{{ flag ? '开启监听' : '停止监听' }}</a-button>
+    <a-button @click="stopHandle">
+      {{ flag ? '开启监听' : '停止监听' }}
+    </a-button>
     <ul ref="root">
       <li v-for="it in values" :key="it">
         给我一个div {{ it }}
       </li>
       <!--  -->
-      <div class="wfull fcc target" ref="target">
+      <div ref="target" class="target wfull fcc">
         <!-- 加载动画 -->
         <LoadingCom />
       </div>
@@ -163,7 +165,7 @@ onMounted(() => {
 ```
 :::
 
-## 6. 封装自定义指令实现无限滚动
+## 7. 封装自定义指令实现无限滚动
 **效果相同:**
 <DemoBlock><IntersectionObserver /></DemoBlock>
 :::danger 注意:

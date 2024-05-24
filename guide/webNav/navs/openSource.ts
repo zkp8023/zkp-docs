@@ -7,6 +7,11 @@ export const openSourceList: ICard2[] = [
     src: 'https://doc.vvbin.cn/',
   },
   {
+    name: 'RuoYi',
+    desc: '挺火的后台模板',
+    src: 'https://doc.ruoyi.vip/ruoyi-vue/document/xmkz.html#%E5%90%8E%E5%8F%B0%E6%89%A9%E5%B1%95',
+  },
+  {
     name: 'Antdv Pro',
     img: '/images/other/antv-pro.svg',
     tooltip: 'Vite + Vue3 + Unocss + Antdv4 + TS + Pinia',
@@ -80,6 +85,4 @@ export const openSourceList: ICard2[] = [
     tooltip: 'React 18、Vite、TypeScript、 Ant Design ',
     src: 'https://docs-admin.slashspaces.com/',
   },
-  // @ts-expect-error
-  {},
 ]
