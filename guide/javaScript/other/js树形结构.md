@@ -255,35 +255,46 @@ function dataToTree(data) {
 ### 2.2 循环递归
 
 ```ts
-/**
- * @params pid:顶级节点  "0"
- */
-function dataToTree(data, pid) {
-  const list = data.filter(it => it.pid === pid)
+function dataToTree<T>(data: T[], cField: keyof T, pField: keyof T, pid: unknown) {
+  const list = data.filter(it => it[pField] === pid)
   list.forEach((it) => {
-    it.children = dataToTree(data, it.id)
+    it.children = dataToTree(data, cField, pField, it[cField])
   })
   return list
 }
+const res = dataToTree(arr, 'id', 'pid', '0')
+console.log('res', res)
 ```
 
-### 2.3 map 映射
+### 2.3 map 映射(性能好)
 
 ```ts
-function dataToTree(data) {
-  const map = {}
-  return dataList.reduce((acc, item) => {
-    if (!item.children)
-      item.children = []
-    map[item.id] = item
-    if (map[item.pid])
-      map[item.pid].children.push(map[item.id])
-    else
-      acc.push(map[item.id])
-
+/**
+ *
+ * @param list 扁平数据源
+ * @param cField 节点唯一值字段名称
+ * @param pField 当前节点父节点的唯一值字段名称 顶级节点一般为: 0 | null | undefined
+ * @returns 处理好的顶级节点数组
+ */
+function dataToTree<T>(list: T[], cField: keyof T, pField: keyof T) {
+  const map = new Map()
+  // map中保存每个节点信息并添加children
+  list.forEach((node) => {
+    map.set(node[cField], { ...node, children: [] })
+  })
+  const result = list.reduce<T[]>((acc, node) => {
+    // 获取当前节点在map中的父节点和当前节点
+    const parentNode = map.get(node[pField])
+    const currentNode = map.get(node[cField])
+    // 有父节点,在父节点的children中添加当前节点, 没有父节点, 说明当前节点是顶级节点
+    parentNode ? parentNode.children.push(currentNode) : acc.push(currentNode)
     return acc
   }, [])
+  // return result[0] || null // [!code error] 单根节点的情况下可以这样返回
+  return result
 }
+const res = dataToTree(arr, 'id', 'pid')
+console.log('res', res)
 ```
 
 ## 3.搜索树结构
