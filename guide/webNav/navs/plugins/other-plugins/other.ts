@@ -1,6 +1,11 @@
 // 其他插件
 export const otherPlugins: ICard[] = [
   {
+    name: 'web-tracing',
+    desc: '为前端项目提供完善的监控手段',
+    src: 'https://m-cheng-web.github.io/web-tracing/',
+  },
+  {
     name: 'WinBox ',
     desc: 'HTML5 网络窗口管理器',
     src: 'https://nextapps-de.github.io/winbox/',
