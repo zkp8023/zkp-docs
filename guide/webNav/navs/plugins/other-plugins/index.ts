@@ -186,3 +186,44 @@ export const tooltipList: ICard[] = [
     src: 'https://github.com/Maronato/vue-toastification',
   },
 ]
+/**
+ * 拖拽
+ */
+
+export const dragList: ICard[] = [
+  {
+    name: 'Grid Layout Plus',
+    desc: 'Vue 3 的可拖拽、可缩放的布局',
+    src: 'https://grid-layout-plus.netlify.app/zh/',
+  },
+  {
+    name: 'vue3-drag-resize',
+    desc: '可拖拽,缩放的vue组件',
+    src: 'https://github.com/kirillmurashov/vue-drag-resize',
+  },
+  {
+    name: 'vue3-draggable-resizable',
+    desc: '另一个可拖拽,缩放的vue组件',
+    src: 'https://github.com/a7650/vue3-draggable-resizable/blob/main/docs/document_zh.md',
+  },
+  {
+    name: 'vue3-draggable',
+    desc: '基于sortable.js的vue拖拽插件,vue3版本',
+    src: 'https://sortablejs.github.io/vue.draggable.next/#/simple',
+  },
+  {
+    name: 'react-dnd',
+    desc: 'react的拖拽库',
+    src: 'https://react-dnd.github.io/react-dnd/about',
+  },
+  {
+    name: 'React-Grid-Layout',
+    desc: 'react的拖拽布局',
+    src: 'https://react-grid-layout.github.io/react-grid-layout/examples/0-showcase.html',
+  },
+  {
+    name: 'draggable',
+    desc: 'js拖拽库',
+    src: 'https://shopify.github.io/draggable/examples/',
+  },
+]

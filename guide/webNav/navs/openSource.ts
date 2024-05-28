@@ -10,6 +10,8 @@ export const openSourceList: ICard2[] = [
     name: 'RuoYi',
     desc: '挺火的后台模板',
     src: 'https://doc.ruoyi.vip/ruoyi-vue/document/xmkz.html#%E5%90%8E%E5%8F%B0%E6%89%A9%E5%B1%95',
+    otherStr: 'https://plus-doc.dromara.org/',
+    otherStrDesc: '社区vue3版本',
   },
   {
     name: 'Antdv Pro',

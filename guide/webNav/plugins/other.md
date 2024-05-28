@@ -1,7 +1,7 @@
 # 其他插件
 
 <script setup>
-    import {  fileOperation ,formPlugins,otherPlugins ,canvasList  ,videoPlugins ,echartsList,scroll ,flow , images,storageList ,editorList,tableList ,tooltipList }from '../navs/plugins/other-plugins'
+    import {  fileOperation ,formPlugins,otherPlugins ,canvasList  ,videoPlugins ,echartsList,scroll ,flow , images,storageList ,editorList,tableList ,tooltipList ,dragList }from '../navs/plugins/other-plugins'
 </script>
 
 ## 1. 富文本
@@ -42,6 +42,9 @@
 
 ## 12. tooltip,message提示
 <CardList :cardList="tooltipList"/>
+
+## 13. drag & drop
+<CardList :cardList="dragList"/>
 
 ## 13. 其他
 <CardList :cardList="otherPlugins"/>
