@@ -21,7 +21,8 @@ export const vueList: ICard2[] = [
   {
     name: 'VueUse',
     img: '/images/official/vueuse.svg',
-    src: 'https://vueuse.org/guide/',
+    enSrc: 'https://vueuse.org/guide/',
+    zhSrc: 'https://vueuse.pages.dev/guide/',
   },
   {
     name: 'Vue-Router',
