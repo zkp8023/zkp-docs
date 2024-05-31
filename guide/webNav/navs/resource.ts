@@ -142,6 +142,11 @@ export const books: ICard[] = [
     desc: '计算机系统结构基础',
     src: 'https://foxsen.github.io/archbase/',
   },
+  {
+    name: 'Discover Threejs',
+    desc: '很好的threejs书籍',
+    src: 'https://discoverthreejs.com/zh/book/introduction/get-threejs/',
+  },
 ]
 /** git */
 export const gitList: ICard[] = [

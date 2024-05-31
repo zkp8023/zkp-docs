@@ -212,6 +212,11 @@ export const dragList: ICard[] = [
     src: 'https://sortablejs.github.io/vue.draggable.next/#/simple',
   },
   {
+    name: 'vue3-Draggable-Plus',
+    desc: '支持 Vue2 和 Vue3 的拖拽组件',
+    src: 'https://vue-draggable-plus.pages.dev/',
+  },
+  {
     name: 'react-dnd',
     desc: 'react的拖拽库',
     src: 'https://react-dnd.github.io/react-dnd/about',
