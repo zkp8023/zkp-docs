@@ -113,15 +113,49 @@ export const otherComs: ICard2[] = [
   {
     name: 'Vant',
     img: '/images/official/vant.png',
-    src: 'https://vant-contrib.gitee.io/vant/#/zh-CN/home',
-    desc: 'h5 小程序',
+    src: 'https://vant-ui.github.io/vant',
+    desc: 'vue2 vue3 react h5 小程序',
   },
   {
     name: 'varlet',
     img: '/images/official/varlet.png',
-    src: 'https://varlet.gitee.io/varlet-ui/#/zh-CN/home',
+    src: 'https://varlet.pages.dev',
     desc: 'vue3 移动端',
   },
+  // @ts-expect-error
+  {},
+]
+
+// 跨端组件库
+export const crossPlatform: ICard2[] = [
+  {
+    name: 'uViewUI',
+    img: '/images/official/uv-ui.png',
+    src: 'https://uviewui.com/',
+    desc: 'Vue2老牌uniapp组件库',
+  },
+  {
+    name: 'uv-ui',
+    img: '/images/official/uv-ui.png',
+    src: 'https://www.uvui.cn/',
+    desc: '兼容Vue3 , Vue2的基于uView2的uniapp组件库',
+  },
+  {
+    name: 'wot-design-uni',
+    img: '/images/official/wot-design.png',
+    src: 'https://wot-design-uni.netlify.app/',
+    desc: 'Vue3 + TS轻量化的uni-app组件库',
+    tooltip: '提供了快速上手模板, 也有社区开源的unibest模板',
+  },
+  {
+    name: 'thorui',
+    img: '/images/official/thorui.png',
+    src: 'https://thorui.cn/doc/',
+    desc: '兼容Vue3,Vue2,uni-app,原生微信小程序的组件库',
+    tooltip: '部分组件收费',
+  },
+  // @ts-expect-error
+  {},
   // @ts-expect-error
   {},
 ]

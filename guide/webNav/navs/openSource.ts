@@ -1,3 +1,4 @@
+// 后台模板
 export const openSourceList: ICard2[] = [
   {
     name: 'Vben-Admin',
@@ -87,4 +88,19 @@ export const openSourceList: ICard2[] = [
     tooltip: 'React 18、Vite、TypeScript、 Ant Design ',
     src: 'https://docs-admin.slashspaces.com/',
   },
+]
+
+// 移动端 uni
+
+export const mobileList: ICard2[] = [
+  {
+    name: 'unibest',
+    src: 'https://codercup.github.io/unibest-docs/',
+    tooltip: 'uniapp + Vue3 + Ts + Vite4 + UnoCss',
+    desc: '文档详细友好的uniapp模板',
+  },
+  // @ts-expect-error
+  {},
+  // @ts-expect-error
+  {},
 ]

@@ -1,5 +1,5 @@
 //  官网地址
-export { taobaoComs, TencentComs, bytedanceComs, otherComs } from './ui-components'
+export { taobaoComs, TencentComs, bytedanceComs, otherComs, crossPlatform } from './ui-components'
 export { otherOfficial } from './others'
 export { toolsList } from './tools'
 

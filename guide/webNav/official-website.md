@@ -1,5 +1,5 @@
 <script setup>
-import { vueList,reactList ,taobaoComs,TencentComs ,bytedanceComs ,otherComs ,cssList,toolsList ,otherOfficial ,iconList,libraryList,electronList,harmonyList } from './navs/official-website'
+import { vueList,reactList ,taobaoComs,TencentComs ,bytedanceComs ,otherComs ,cssList,toolsList ,otherOfficial ,iconList,libraryList,electronList,harmonyList ,crossPlatform } from './navs/official-website'
 </script>
 
 # 常用官网
@@ -47,6 +47,11 @@ import { vueList,reactList ,taobaoComs,TencentComs ,bytedanceComs ,otherComs ,cs
 <br />
 
 <CardList2 :cardList="bytedanceComs"/>
+
+###  cross-platform
+<br />
+
+<CardList2 :cardList="crossPlatform"/>
 
 ###  Others
 <br />
