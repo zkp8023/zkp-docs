@@ -7,10 +7,7 @@ import { vueList,reactList ,taobaoComs,TencentComs ,bytedanceComs ,otherComs ,cs
 ## 1. Tools
 <CardList2 :cardList="toolsList"/>
 
-## 2. Libraries
-<CardList2 :cardList="libraryList"/>
-
-##  3. Frame
+##  2. Frame
 
 ### 1. Harmony
 <br />
@@ -24,14 +21,14 @@ import { vueList,reactList ,taobaoComs,TencentComs ,bytedanceComs ,otherComs ,cs
 <br />
 <CardList2 :cardList="reactList"/>
 
-### 4. Electron
+### 3. Electron
 <br />
 <CardList2 :cardList="electronList"/>
 
-##  4. Css
+##  3. Css
 <CardList2 :cardList="cssList"/>
 
-##  5. Components
+##  4. Components
 
 ###  Alibaba
 <br />
@@ -48,7 +45,7 @@ import { vueList,reactList ,taobaoComs,TencentComs ,bytedanceComs ,otherComs ,cs
 
 <CardList2 :cardList="bytedanceComs"/>
 
-###  cross-platform
+###  Cross-Platform
 <br />
 
 <CardList2 :cardList="crossPlatform"/>
@@ -58,10 +55,13 @@ import { vueList,reactList ,taobaoComs,TencentComs ,bytedanceComs ,otherComs ,cs
 
 <CardList2 :cardList="otherComs"/>
 
-## 6. Icon
+## 5. Icon
 <br />
 
 <CardList2 :cardList="iconList"/>
+
+## 6. Libraries
+<CardList2 :cardList="libraryList"/>
 
 ## 7. Others
 

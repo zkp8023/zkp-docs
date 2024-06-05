@@ -348,7 +348,7 @@ export const libraryList: ICard2[] = [
     src: 'https://day.js.org/',
     otherStr: 'https://dayjs.gitee.io/docs/zh-CN/installation/installation',
     otherStrDesc: '国内镜像',
-    tooltip: '轻量级处理时间和日期的 JavaScript 库',
+    desc: '好用轻量的时间日期js库',
   },
   {
     name: 'Unplugin',
@@ -361,6 +361,15 @@ export const libraryList: ICard2[] = [
     img: '/images/official/mockjs.svg',
     src: 'http://mockjs.com/examples.html',
   },
+  {
+    name: 'luch request',
+    src: 'https://www.quanzhan.co/luch-request/',
+    desc: '基于Promise开发的uni-app跨平台请求库',
+  },
+  // @ts-expect-error
+  {},
+  // @ts-expect-error
+  {},
 ]
 
 // 鸿蒙
