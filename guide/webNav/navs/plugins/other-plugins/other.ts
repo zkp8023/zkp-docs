@@ -6,6 +6,21 @@ export const otherPlugins: ICard[] = [
     src: 'https://m-cheng-web.github.io/web-tracing/',
   },
   {
+    name: 'code mirror',
+    desc: '在线代码编辑器,支持多种语言',
+    src: 'https://codemirror.net/',
+  },
+  {
+    name: 'highlight.js',
+    desc: 'JavaScript 语法高亮器,也有对应的vue版插件ighlightjs/vue-plugin',
+    src: 'https://highlightjs.org/demo',
+  },
+  {
+    name: 'js-beautify',
+    desc: 'JavaScript 语法美化库,页面展示代码时可美化',
+    src: 'https://github.com/beautifier/js-beautify',
+  },
+  {
     name: 'WinBox ',
     desc: 'HTML5 网络窗口管理器',
     src: 'https://nextapps-de.github.io/winbox/',
@@ -86,17 +101,6 @@ export const otherPlugins: ICard[] = [
     name: 'v-perfect-signature手写签名',
     desc: 'vue2,vue3 平滑签名绘图',
     src: 'https://wobsoriano.github.io/v-perfect-signature/',
-  },
-
-  {
-    name: 'Moveable 拖拽 变形',
-    desc: '拖拽 、调整大小、缩放、旋转 、变形扭曲、分组',
-    src: 'https://github.com/daybrush/moveable',
-  },
-  {
-    name: 'draggable拖拽',
-    desc: '支持flex,grid拖拽',
-    src: 'https://shopify.github.io/draggable/',
   },
   {
     name: 'countUp.js',

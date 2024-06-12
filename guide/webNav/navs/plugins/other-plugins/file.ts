@@ -37,5 +37,15 @@ export const fileOperation: ICard[] = [
     desc: 'js创建修改pdf文件',
     src: 'https://pdf-lib.js.org/',
   },
+  {
+    name: 'fflate 压缩和解压缩.zip文件',
+    desc: '压缩和解压缩 ZIP 文件',
+    src: 'https://101arrowz.github.io/fflate/',
+  },
+  {
+    name: 'jsZip',
+    desc: '使用 Javascript 创建、读取和编辑 .zip 文件',
+    src: 'https://stuk.github.io/jszip/',
+  },
 
 ]

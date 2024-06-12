@@ -231,4 +231,9 @@ export const dragList: ICard[] = [
     desc: 'js拖拽库',
     src: 'https://shopify.github.io/draggable/examples/',
   },
+  {
+    name: 'Moveable 拖拽 变形',
+    desc: '拖拽 、调整大小、缩放、旋转 、变形扭曲、分组',
+    src: 'https://github.com/daybrush/moveable',
+  },
 ]
