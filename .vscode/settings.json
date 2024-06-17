@@ -40,5 +40,6 @@
   "editor.inlineSuggest.showToolbar": "onHover",
   "[typescript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  }
+  },
+  "svn.ignoreMissingSvnWarning": true
 }

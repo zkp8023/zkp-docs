@@ -3,6 +3,11 @@
  */
 export const fileOperation: ICard[] = [
   {
+    name: 'sheetjs',
+    desc: 'xlsx',
+    src: 'https://xlsx.nodejs.cn/docs/',
+  },
+  {
     name: 'file-saver 文件下载',
     desc: '各种文件下载,支持Blob,File,url',
     src: 'https://github.com/eligrey/FileSaver.js',
@@ -47,5 +52,14 @@ export const fileOperation: ICard[] = [
     desc: '使用 Javascript 创建、读取和编辑 .zip 文件',
     src: 'https://stuk.github.io/jszip/',
   },
-
+  {
+    name: 'vue-json-excel',
+    desc: 'json数据导出为execl',
+    src: 'https://vue-json-excel3.netlify.app/',
+  },
+  {
+    name: 'pikaz-excel-js',
+    desc: 'json数据导出为execl',
+    src: 'https://github.com/pikaz-18/pikaz-excel-js',
+  },
 ]
