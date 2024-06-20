@@ -45,6 +45,12 @@ export const otherOfficial: ICard2[] = [
     desc: '简单易用的部署平台',
     src: 'https://docs.render.com/',
   },
+  {
+    name: 'Strapi',
+    img: '/images/official/strapi.svg',
+    enSrc: 'https://strapi.io/',
+    zhSrc: 'https://strapi.nodejs.cn/',
+  },
 
   {
     name: 'stackoverflow',
@@ -109,6 +115,4 @@ export const otherOfficial: ICard2[] = [
     img: '/images/official/socketIo.svg',
     src: 'https://socket.nodejs.cn/',
   },
-  // @ts-expect-error
-  {},
 ]
