@@ -63,9 +63,9 @@ export const books: ICard[] = [
     src: 'https://xiaolincoding.com/',
   },
   {
-    name: 'waytoagi',
-    desc: 'ai学习路线图',
-    src: 'https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e',
+    name: '计算机系统结构基础',
+    desc: '计算机系统结构基础',
+    src: 'https://foxsen.github.io/archbase/',
   },
   {
     name: '图解 QUIC 连接',
@@ -73,14 +73,9 @@ export const books: ICard[] = [
     src: 'https://cangsdarm.github.io/illustrate/quic',
   },
   {
-    name: ' LINUX-TUTORIAL (linux,docker教程)',
-    desc: ' Linux 教程',
-    src: 'https://dunwu.github.io/linux-tutorial/',
-  },
-  {
-    name: 'nginx-tutorial (nginx教程)',
-    desc: ' nginx 教程',
-    src: 'https://dunwu.github.io/nginx-tutorial',
+    name: 'waytoagi',
+    desc: 'ai学习路线图',
+    src: 'https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e',
   },
   {
     name: 'Vue3 入门指南与实战案例',
@@ -138,14 +133,30 @@ export const books: ICard[] = [
     src: 'https://react.iamkasong.com/me.html',
   },
   {
-    name: '计算机系统结构基础',
-    desc: '计算机系统结构基础',
-    src: 'https://foxsen.github.io/archbase/',
-  },
-  {
     name: 'Discover Threejs',
     desc: '很好的threejs书籍',
     src: 'https://discoverthreejs.com/zh/book/introduction/get-threejs/',
+  },
+]
+
+/**
+ * 运维
+ */
+export const operationList: ICard[] = [
+  {
+    name: ' LINUX-TUTORIAL (Linux , docker教程)',
+    desc: ' Linux 教程',
+    src: 'https://dunwu.github.io/linux-tutorial/',
+  },
+  {
+    name: 'nginx-tutorial (nginx教程)',
+    desc: ' nginx 教程',
+    src: 'https://dunwu.github.io/nginx-tutorial',
+  },
+  {
+    name: 'nginx配置生成器',
+    desc: 'nginx可视化配置',
+    src: 'https://www.digitalocean.com/community/tools/nginx',
   },
 ]
 /** git */
@@ -210,8 +221,8 @@ export const gitList: ICard[] = [
 /** 其他 */
 export const otherList: ICard[] = [
   {
-    name: '小兔鲜',
-    desc: '小兔鲜',
+    name: 'heima-xtx',
+    desc: 'heima-xtx',
     src: 'https://zhoushugang.gitee.io/erabbit-client-pc-document/guide/03-home.html',
   },
   {

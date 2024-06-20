@@ -81,6 +81,16 @@ export const otherPlugins: ICard[] = [
     desc: '一个小巧但功能强大的工具，用于高性能颜色操作和转换',
     src: 'https://colord.omgovich.ru/',
   },
+  {
+    name: 'TinyColor 颜色操作',
+    desc: '一个小巧但功能强大的工具，用于高性能颜色操作和转换',
+    src: 'https://bgrins.github.io/TinyColor/',
+  },
+  {
+    name: 'granim.js颜色渐变',
+    desc: '创建流畅且交互式的渐变动画',
+    src: 'https://sarcadass.github.io/granim.js/index.html',
+  },
 
   {
     name: 'Typed.js',

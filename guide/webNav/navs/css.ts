@@ -22,7 +22,6 @@ export const learnCss = [
 ]
 /* css 工具 */
 export const cssTools = [
-
   {
     name: '动画调试工具',
     desc: 'css3-animation-tool css动画调试工具',
@@ -42,6 +41,16 @@ export const cssTools = [
     name: 'css滤镜',
     desc: '在线图片滤镜工具',
     src: 'https://www.cssfilters.co/',
+  },
+  {
+    name: 'flex布局小游戏',
+    desc: 'flex布局小游戏',
+    src: 'https://flexboxfroggy.com/#zh-cn',
+  },
+  {
+    name: 'grid布局小游戏',
+    desc: 'grid布局小游戏',
+    src: 'https://cssgridgarden.com/#zh-cn',
   },
 
 ]
