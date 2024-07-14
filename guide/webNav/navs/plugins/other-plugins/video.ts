@@ -13,6 +13,11 @@ export const videoPlugins: ICard[] = [
     src: 'https://h5player.bytedance.com/',
   },
   {
+    name: 'Artplayer.js',
+    desc: '全功能html5视频播放器,含弹幕',
+    src: 'https://artplayer.org/document/',
+  },
+  {
     name: 'DPlayer 视频播放',
     desc: '很好的播放器',
     src: 'https://dplayer.diygod.dev/zh/',
@@ -24,7 +29,7 @@ export const videoPlugins: ICard[] = [
   },
   {
     name: 'plyr 视频播放',
-    desc: '一个简单的HTML5，YouTube和Vimeo播放器',
+    desc: '一个简单的HTML5，YouTube和Video播放器',
     src: 'https://github.com/sampotts/plyr',
   },
 ]
