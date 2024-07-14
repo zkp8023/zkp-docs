@@ -32,4 +32,9 @@ export const videoPlugins: ICard[] = [
     desc: '一个简单的HTML5，YouTube和Video播放器',
     src: 'https://github.com/sampotts/plyr',
   },
+  {
+    name: 'MuiPlayer',
+    desc: 'video 视频播放',
+    src: 'https://muiplayer.js.org/zh/guide/',
+  },
 ]
