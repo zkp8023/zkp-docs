@@ -114,6 +114,8 @@ export const otherComs: ICard2[] = [
     name: 'Vant',
     img: '/images/official/vant.png',
     src: 'https://vant-ui.github.io/vant',
+    otherStr: 'https://vant.pro/vant/#/zh-CN/home',
+    otherStrDesc: '国内镜像',
     desc: 'vue2 vue3 react h5 小程序',
   },
   {
