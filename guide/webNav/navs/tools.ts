@@ -281,25 +281,6 @@ export const other: ICard2[] = [
     src: 'https://app.diagrams.net/',
   },
   {
-    name: 'Ai工具集',
-    img: '/images/tools/AI.svg',
-    imgStyle: { width: '100px' },
-    src: 'https://ai-bot.cn/',
-  },
-  {
-    name: '帮小忙',
-    desc: '腾讯QQ浏览器工具箱',
-    img: '/images/tools/qqtool.svg',
-    src: 'https://tool.browser.qq.com/',
-  },
-
-  {
-    name: 'PDF猫',
-    desc: 'PDF文件各种操作',
-    img: '/images/tools/pdfCat.svg',
-    src: 'https://www.pdfmao.com/',
-  },
-  {
     name: '文件,视频,音频在线转换',
     img: '/images/tools/convertio.svg',
     imgStyle: { width: '90px', height: '100px' },

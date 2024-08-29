@@ -4,6 +4,11 @@
 export const reactPlugins: ICard[] = [
 
   {
+    name: 'awesome-react',
+    desc: 'react资源整合',
+    src: 'https://github.com/enaqx/awesome-react',
+  },
+  {
     name: 'awesome-react-components',
     desc: 'react资源整合',
     src: 'https://github.com/brillout/awesome-react-components',
