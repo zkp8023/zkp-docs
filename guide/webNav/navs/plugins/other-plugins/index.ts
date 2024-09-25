@@ -42,6 +42,11 @@ export const flow: ICard[] = [
     desc: '流程图',
     src: 'https://vueflow.dev/',
   },
+  {
+    name: 'SimpleMindMap',
+    desc: '一个强大的Web思维导图',
+    src: 'https://wanglin2.github.io/mind-map-docs/',
+  },
 ]
 
 // canvas
