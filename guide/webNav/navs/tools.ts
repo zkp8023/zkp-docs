@@ -225,8 +225,13 @@ export const codeGround: ICard2[] = [
     src: 'https://stackblitz.com/',
     tooltip: '基于VsCode的在线IDE,可直接创建多种项目模板,vue,vue+ts,react...',
   },
-  // @ts-expect-error
-  {},
+  {
+    name: 'JSBEN.CH',
+    desc: '比较不同 JS 代码的性能',
+    src: 'https://jsben.ch/browse',
+    tooltip: '一个在线页面，用来比较不同 JS 代码的性能',
+  },
+
   // @ts-expect-error
   {},
 ]
@@ -255,6 +260,12 @@ export const other: ICard2[] = [
     desc: '在线随机图片,简单易用,项目demo图片',
     img: '/images/tools/loremPicture.svg',
     src: 'https://picsum.photos/',
+  },
+  {
+    name: 'faces.js',
+    desc: '生成随机卡通头像的 JS 库',
+    img: '/images/tools/facejs.svg',
+    src: 'https://zengm.com/facesjs/',
   },
   {
     name: '图片占位符',

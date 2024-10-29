@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import Unocss from 'unocss/vite'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 import { demoblockVitePlugin } from 'vitepress-theme-demoblock'
+import viteCompression from 'vite-plugin-compression2'
 
 export default defineConfig(() => {
   return {
@@ -9,6 +10,9 @@ export default defineConfig(() => {
       Unocss(),
       ViteImageOptimizer(),
       demoblockVitePlugin(),
+      viteCompression({
+        deleteOriginalAssets: true,
+      }),
     ],
     resolve: {
       alias: {

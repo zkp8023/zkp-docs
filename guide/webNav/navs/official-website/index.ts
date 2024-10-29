@@ -338,6 +338,13 @@ export const libraryList: ICard2[] = [
     zhSrc: 'https://axios.nodejs.cn/docs/intro',
   },
   {
+    name: 'Alova.js',
+    img: '/images/official/alova.svg',
+    desc: '下一代请求工具',
+    src: 'https://alova.js.org/zh-CN/tutorial/getting-started/introduce',
+    tooltip: '貌似很强大的一个请求库',
+  },
+  {
     name: 'Lodash',
     img: '/images/official/lodash.png',
     src: 'https://www.lodashjs.com/',
@@ -345,9 +352,9 @@ export const libraryList: ICard2[] = [
   {
     name: 'Day.js',
     img: '/images/official/dayjs.svg',
-    src: 'https://day.js.org/',
-    otherStr: 'https://dayjs.gitee.io/docs/zh-CN/installation/installation',
-    otherStrDesc: '国内镜像',
+    src: 'https://day.js.org/zh-CN',
+    // otherStr: 'https://dayjs.gitee.io/docs/zh-CN/installation/installation',
+    // otherStrDesc: '国内镜像',
     desc: '好用轻量的时间日期js库',
   },
   {

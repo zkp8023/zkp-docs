@@ -10,7 +10,7 @@ import { ConfigSvgIconsPlugin } from './svgIcons'
 import { AutoRegistryComponents } from './component'
 import { AutoImportDeps } from './autoImport'
 // import { ConfigVisualizerConfig } from './visualizer'
-// import { ConfigCompressPlugin } from './compress'
+import { ConfigCompressPlugin } from './compress'
 
 export function createVitePlugins(isBuild: boolean) {
   const vitePlugins: (PluginOption | PluginOption[])[] = [
@@ -20,7 +20,7 @@ export function createVitePlugins(isBuild: boolean) {
     vueJsx(),
     // unocss
     Unocss(),
-    // compression(),
+    ConfigCompressPlugin(),
     // 提供https证书
     // VitePluginCertificate({
     //   source: 'coding',

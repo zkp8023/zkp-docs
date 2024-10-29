@@ -139,9 +139,14 @@ export const tableList: ICard[] = [
     src: 'https://handsontable.com/docs/javascript-data-grid/',
   },
   {
-    name: 'sheetjs',
+    name: 'sheetjs-xlsx',
     desc: 'xlsx',
     src: 'https://xlsx.nodejs.cn/docs/',
+  },
+  {
+    name: 'ExcelJS',
+    desc: 'ExcelJS',
+    src: 'https://github.com/exceljs/exceljs/tree/master',
   },
 
 ]
