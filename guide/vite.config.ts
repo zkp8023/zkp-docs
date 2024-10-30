@@ -10,9 +10,9 @@ export default defineConfig(() => {
       Unocss(),
       ViteImageOptimizer(),
       demoblockVitePlugin(),
-      viteCompression({
-        deleteOriginalAssets: true,
-      }),
+      // viteCompression({
+      //   deleteOriginalAssets: true,
+      // }),
     ],
     resolve: {
       alias: {
