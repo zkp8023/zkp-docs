@@ -39,6 +39,11 @@ export const weekly: ICard[] = [
     src: 'https://ruanyf-weekly.plantree.me/weekly/',
   },
   {
+    name: '值得一读技术博客',
+    desc: '很多文章技术文档',
+    src: 'https://daily-blog.chlinlearn.top/',
+  },
+  {
     name: '前端食堂技术周刊',
     desc: '前端食堂技术周刊',
     src: 'https://www.yuque.com/danielhuo/wcpkcd',

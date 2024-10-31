@@ -301,6 +301,12 @@ export const iconList: ICard2[] = [
     desc: '在unplugin-icons中有介绍',
   },
   {
+    name: 'svg-viewer',
+    img: '/images/official/svg-viewer.svg',
+    src: 'https://www.svgviewer.dev/',
+    desc: 'svg图标编辑下载',
+  },
+  {
     name: 'IconPark',
     img: '/images/official/iconpark.svg',
     imgStyle: { width: '120px', height: '60px' },
@@ -320,6 +326,10 @@ export const iconList: ICard2[] = [
     img: '/images/official/searchEmoji.png',
     src: 'https://searchemoji.app/zh-hans',
   },
+  // @ts-expect-error
+  {},
+  // @ts-expect-error
+  {},
 ]
 
 // library
@@ -373,8 +383,6 @@ export const libraryList: ICard2[] = [
     src: 'https://www.quanzhan.co/luch-request/',
     desc: '基于Promise开发的uni-app跨平台请求库',
   },
-  // @ts-expect-error
-  {},
   // @ts-expect-error
   {},
 ]

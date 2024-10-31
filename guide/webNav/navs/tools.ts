@@ -80,8 +80,11 @@ export const codeTools: ICard2[] = [
     img: '/images/tools/regex.svg',
     src: 'https://regexr-cn.com/',
   },
-  // @ts-expect-error
-  {},
+  {
+    name: 'JSON Creator',
+    desc: '在线json生成器',
+    src: 'https://www.jsongenerator.io/',
+  },
   // @ts-expect-error
   {},
 ]

@@ -130,4 +130,9 @@ export const algorithm = [
     desc: '有收费',
     src: 'https://codetop.cc/home',
   },
+  {
+    name: '算法动画',
+    desc: '算法动画',
+    src: 'https://gallery.selfboot.cn/zh/algorithms',
+  },
 ]
