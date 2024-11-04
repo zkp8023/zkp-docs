@@ -1,6 +1,21 @@
 // tools
 export const toolsList: ICard2[] = [
   {
+    name: 'Vite',
+    img: '/images/official/vite.svg',
+    src: 'https://cn.vitejs.dev/',
+  },
+  {
+    name: 'webpack',
+    img: '/images/official/webpack.svg',
+    src: 'https://webpack.docschina.org/concepts/',
+  },
+  {
+    name: 'Rspack',
+    img: '/images/official/rspack.svg',
+    src: 'https://rspack.dev/zh',
+  },
+  {
     name: 'pnpm',
     img: '/images/official/pnpm.svg',
     zhSrc: 'https://pnpm.io/zh/motivation',
@@ -22,22 +37,18 @@ export const toolsList: ICard2[] = [
     otherStr: 'https://www.npmmirror.com/',
     otherStrDesc: 'npmmirror',
   },
-  {
-    name: 'Vite',
-    img: '/images/official/vite.svg',
-    src: 'https://cn.vitejs.dev/',
-  },
-  {
-    name: 'webpack',
-    img: '/images/official/webpack.svg',
-    src: 'https://webpack.docschina.org/concepts/',
-  },
+
   {
     name: 'Rollup',
     img: '/images/official/rollup.svg',
     zhSrc: 'https://cn.rollupjs.org/',
     otherStr: 'https://rollup.nodejs.cn/',
     otherStrDesc: '社区中文',
+  },
+  {
+    name: 'Rolldown',
+    img: '/images/official/rolldown.svg',
+    src: 'https://rolldown.rs/',
   },
   {
     name: 'Babel',
@@ -73,6 +84,8 @@ export const toolsList: ICard2[] = [
     tooltip: '快速格式化工具(Prettier的rust版本)',
     src: 'https://biomejs.dev/zh-cn/',
   },
+  // @ts-expect-error
+  {},
   // @ts-expect-error
   {},
 ]
