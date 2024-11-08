@@ -1,6 +1,11 @@
 // 后台模板
 export const openSourceList: ICard2[] = [
   {
+    name: 'vue后台管理模版',
+    desc: '很多模板',
+    src: 'http://vue.easydo.work',
+  },
+  {
     name: 'Vben-Admin',
     img: '/images/other/vben.png',
     desc: '老牌强大的后台模板',
@@ -88,6 +93,10 @@ export const openSourceList: ICard2[] = [
     tooltip: 'React 18、Vite、TypeScript、 Ant Design ',
     src: 'https://docs-admin.slashspaces.com/',
   },
+  // @ts-expect-error
+  {},
+  // @ts-expect-error
+  {},
 ]
 
 // 移动端 uni

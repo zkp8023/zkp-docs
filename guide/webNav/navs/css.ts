@@ -134,4 +134,9 @@ export const cssOthers = [
     desc: 'colordrop配色',
     src: 'https://www.colordrop.io/',
   },
+  {
+    name: 'ColorKit',
+    desc: '一种颜色的不同效果',
+    src: 'https://colorkit.io/',
+  },
 ]

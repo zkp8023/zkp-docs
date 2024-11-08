@@ -8,7 +8,7 @@ export default defineConfigWithTheme ({
   srcDir: 'guide',
   // outDir: '../dist',
   metaChunk: true,
-  // lastUpdated: true,
+  lastUpdated: true,
   extends: escookConfig,
   themeConfig: {
     search: {
@@ -51,9 +51,8 @@ export default defineConfigWithTheme ({
     socialLinks,
     editLink: {
       pattern: 'https://gitee.com/z-k-p/docs/tree/master/packages/docs/guide/:path',
-      text: '在gitee上编辑',
+      text: 'github',
     },
-    // confetti: false,
     musicBall: {
       list: [
         {
