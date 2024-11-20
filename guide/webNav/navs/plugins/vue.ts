@@ -80,4 +80,14 @@ export const vuePlugins: ICard[] = [
     desc: 'vue打印',
     src: 'https://github.com/CcSimple/vue-plugin-hiprint',
   },
+  {
+    name: 'Vue 3 Marquee',
+    desc: 'vue无缝滚动',
+    src: 'https://vue3-marquee.vercel.app/',
+  },
+  {
+    name: 'vue3-seamless-scroll',
+    desc: 'vue无缝滚动',
+    src: 'https://doc.wssio.com/opensource/vue3-seamless-scroll/',
+  },
 ]

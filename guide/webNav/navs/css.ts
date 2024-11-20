@@ -110,6 +110,11 @@ export const cssEffect = [
 ]
 export const cssOthers = [
   {
+    name: 'Tailwind CSS Color Generator',
+    desc: 'Tailwind CSS 颜色生成器',
+    src: 'https://www.tints.dev/',
+  },
+  {
     name: '渐变色生成,配色',
     desc: '配色方案生成,支持三色渐变',
     src: 'https://mycolor.space/',
