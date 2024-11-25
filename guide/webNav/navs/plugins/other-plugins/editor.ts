@@ -36,6 +36,12 @@ export const editorList: ICard2[] = [
     src: 'https://www.wangeditor.com/',
   },
   {
+    name: 'wangEditor-Next',
+    img: '/images/plugins/editor/wang-editor.png',
+    desc: '基于 wangEditor的富文本',
+    src: 'https://cycleccc.github.io/docs/guide/',
+  },
+  {
     name: 'vditor',
     img: '/images/plugins/editor/vditor.png',
     desc: '挺好的,文档详细',

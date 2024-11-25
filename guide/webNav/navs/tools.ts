@@ -1,6 +1,13 @@
 // code 编程
 export const codeTools: ICard2[] = [
   {
+    name: 'Bestofjs',
+    img: '/images/tools/best-of-js.svg',
+    src: 'https://bestofjs.org/',
+    desc: '前段框架库趋势',
+    tooltip: '前端热门的开源项目',
+  },
+  {
     name: 'whistle',
     img: '/images/official/whistle.png',
     src: 'https://wproxy.org/whistle/',
@@ -13,6 +20,12 @@ export const codeTools: ICard2[] = [
     img: '/images/tools/npmdevtool.svg',
     src: 'https://npm.devtool.tech/',
     tooltip: '找到对应的包后打开浏览器控制台即可在线使用,调试...',
+  },
+  {
+    name: 'Verdaccio',
+    desc: 'npm私服快速搭建',
+    img: '/images/tools/verdaccio.svg',
+    src: 'https://verdaccio.org/zh-cn/',
   },
   {
     name: 'curl',
@@ -50,16 +63,16 @@ export const codeTools: ICard2[] = [
     desc: '集成了npm-check和npm-check-update功能',
     src: 'https://github.com/antfu/taze',
   },
-  {
-    name: 'esno node包装器',
-    desc: '就是tsx,直接执行ts文件,',
-    src: 'https://github.com/esbuild-kit/esno',
-  },
-  {
-    name: 'rimraf 递归删除文件工具',
-    desc: '递归删除文件',
-    src: 'https://github.com/isaacs/rimraf',
-  },
+  // {
+  //   name: 'esno node包装器',
+  //   desc: '就是tsx,直接执行ts文件,',
+  //   src: 'https://github.com/esbuild-kit/esno',
+  // },
+  // {
+  //   name: 'rimraf 递归删除文件工具',
+  //   desc: '递归删除文件',
+  //   src: 'https://github.com/isaacs/rimraf',
+  // },
   {
     name: 'Volta JS 命令行工具',
     desc: 'node typescript等版本管理工具',
@@ -311,6 +324,4 @@ export const other: ICard2[] = [
     img: '/images/tools/codeImage.svg',
     src: 'https://codeimg.io/',
   },
-  // @ts-expect-error
-  {},
 ]
