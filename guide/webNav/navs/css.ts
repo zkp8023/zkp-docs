@@ -115,6 +115,11 @@ export const cssOthers = [
     src: 'https://www.tints.dev/',
   },
   {
+    name: 'aicolors',
+    desc: '智能配色',
+    src: 'https://aicolors.co/',
+  },
+  {
     name: '渐变色生成,配色',
     desc: '配色方案生成,支持三色渐变',
     src: 'https://mycolor.space/',

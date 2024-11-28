@@ -157,8 +157,13 @@ export const tableList: ICard[] = [
 export const tooltipList: ICard[] = [
   {
     name: 'floating-ui(Popper.js)',
-    desc: 'tooltip提示组件,元Popper.js,很多组件库的tooltip提示依赖库',
+    desc: 'tooltip提示组件,原Popper.js,很多组件库的tooltip提示依赖库',
     src: 'https://floating.nodejs.cn/',
+  },
+  {
+    name: 'sweetalert',
+    desc: '定制的弹出框',
+    src: 'https://sweetalert.js.org/',
   },
   {
     name: 'floating-vue',

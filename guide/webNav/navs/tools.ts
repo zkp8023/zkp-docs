@@ -254,6 +254,12 @@ export const codeGround: ICard2[] = [
 // 其他
 export const other: ICard2[] = [
   {
+    name: 'freemediaheckyeah',
+    desc: 'ai 影视 酷站',
+    // img: '/images/tools/aida.svg',
+    src: 'https://fmhy.net/',
+  },
+  {
     name: '爱达杂货铺',
     desc: '酷站,素材,工具...',
     img: '/images/tools/aida.svg',
@@ -324,4 +330,8 @@ export const other: ICard2[] = [
     img: '/images/tools/codeImage.svg',
     src: 'https://codeimg.io/',
   },
+  // @ts-expect-error
+  {},
+  // @ts-expect-error
+  {},
 ]
