@@ -38,6 +38,11 @@ export const flow: ICard[] = [
     src: 'https://site.logic-flow.cn/docs/#/zh/guide/start',
   },
   {
+    name: 'relation-graph',
+    desc: '流程图',
+    src: 'https://www.relation-graph.com/#/index',
+  },
+  {
     name: 'vueflow',
     desc: '流程图',
     src: 'https://vueflow.dev/',
