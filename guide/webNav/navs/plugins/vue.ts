@@ -3,6 +3,11 @@
  */
 export const vuePlugins: ICard[] = [
   {
+    name: 'awesome-vue(官方的)',
+    desc: '各种vue插件收录',
+    src: 'https://github.com/vuejs/awesome-vue',
+  },
+  {
     name: 'awesome-vue',
     desc: '各种vue插件收录',
     src: 'https://awesome-vue.js.org/components-and-libraries/ui-components.html',
