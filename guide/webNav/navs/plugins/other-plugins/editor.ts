@@ -58,6 +58,4 @@ export const editorList: ICard2[] = [
     desc: '面向 AI 的富文本编辑器',
     src: 'https://aieditor.dev/',
   },
-  // @ts-expect-error
-  {},
 ]

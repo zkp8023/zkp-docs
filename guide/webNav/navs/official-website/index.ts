@@ -335,6 +335,16 @@ export const iconList: ICard2[] = [
 // library
 export const libraryList: ICard2[] = [
   {
+    name: 'Express',
+    enSrc: 'https://expressjs.com/',
+    zhSrc: 'https://express.nodejs.cn/',
+  },
+  {
+    name: 'Koa',
+    enSrc: 'https://koajs.com/',
+    zhSrc: 'https://koa.nodejs.cn/',
+  },
+  {
     name: 'TypeScript',
     img: '/images/official/typeScript.svg',
     enSrc: 'https://www.typescriptlang.org/',
@@ -383,6 +393,8 @@ export const libraryList: ICard2[] = [
     src: 'https://www.quanzhan.co/luch-request/',
     desc: '基于Promise开发的uni-app跨平台请求库',
   },
+  // @ts-expect-error
+  {},
   // @ts-expect-error
   {},
 ]
