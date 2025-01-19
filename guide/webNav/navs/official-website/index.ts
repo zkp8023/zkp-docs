@@ -340,6 +340,12 @@ export const libraryList: ICard2[] = [
     zhSrc: 'https://express.nodejs.cn/',
   },
   {
+    name: 'Nestjs',
+    img: '/images/official/nestjs.svg',
+    enSrc: 'https://docs.nestjs.com/',
+    zhSrc: 'https://docs.nestjs.cn/',
+  },
+  {
     name: 'Koa',
     enSrc: 'https://koajs.com/',
     zhSrc: 'https://koa.nodejs.cn/',
@@ -393,8 +399,6 @@ export const libraryList: ICard2[] = [
     src: 'https://www.quanzhan.co/luch-request/',
     desc: '基于Promise开发的uni-app跨平台请求库',
   },
-  // @ts-expect-error
-  {},
   // @ts-expect-error
   {},
 ]
