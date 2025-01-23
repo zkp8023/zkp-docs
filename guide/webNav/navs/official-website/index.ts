@@ -89,7 +89,7 @@ export const reactList: ICard2[] = [
     img: '/images/official/nextjs.svg',
     enSrc: 'https://nextjs.org/',
     // enSrc: 'https://react.docschina.org',
-    zhSrc: 'https://next.nodejs.cn/docs',
+    zhSrc: 'https://nextjscn.org/',
   },
 
   {
@@ -246,6 +246,19 @@ export const cssList: ICard2[] = [
     desc: '',
   },
   {
+    name: 'TW-UI tailwind ui',
+    img: '/images/official/tw-ui.png',
+    imgStyle: { height: '50px' },
+    src: 'https://tw-elements.com/docs/standard/getting-started/quick-start/',
+    desc: 'tailwind组件库,可以借鉴样式类',
+  },
+  {
+    name: 'Tailwind UI',
+    img: '/images/official/tailwindcss.svg',
+    src: 'https://tailwindui.com/',
+    desc: 'Tailwind CSS UI 组件库',
+  },
+  {
     name: 'Windi CSS',
     img: '/images/official/windicss.svg',
     enSrc: 'https://windicss.org/',
@@ -273,6 +286,8 @@ export const cssList: ICard2[] = [
     src: 'https://stylexjs.com/docs/learn/',
     desc: 'css in js',
   },
+  // @ts-expect-error
+  {},
   // @ts-expect-error
   {},
 ]

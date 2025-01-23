@@ -72,13 +72,7 @@ export const bytedanceComs = [
 ]
 // 其他组件库
 export const otherComs: ICard2[] = [
-  {
-    name: 'TW-UI tailwind ui',
-    img: '/images/official/tw-ui.png',
-    imgStyle: { height: '50px' },
-    src: 'https://tw-elements.com/docs/standard/getting-started/quick-start/',
-    desc: 'tailwind组件库,可以借鉴样式类',
-  },
+
   {
     name: 'Taro',
     img: '/images/official/taro.png',
@@ -124,6 +118,8 @@ export const otherComs: ICard2[] = [
     src: 'https://varlet.pages.dev',
     desc: 'vue3 移动端',
   },
+  // @ts-expect-error
+  {},
   // @ts-expect-error
   {},
 ]
