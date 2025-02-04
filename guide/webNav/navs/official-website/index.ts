@@ -15,7 +15,7 @@ export const vueList: ICard2[] = [
     name: 'Nuxt',
     img: '/images/official/nuxt.svg',
     enSrc: 'https://nuxt.com/',
-    zhSrc: 'https://www.nuxt.com.cn/',
+    zhSrc: 'https://nuxt.zhcndoc.com/',
   },
 
   {
@@ -241,7 +241,7 @@ export const cssList: ICard2[] = [
     name: 'Tailwind CSS',
     img: '/images/official/tailwindcss.svg',
     enSrc: 'https://tailwindcss.com/docs/installation',
-    zhSrc: 'https://tailwind.nodejs.cn/docs/installation',
+    zhSrc: 'https://www.tailwindcss.cn/docs/installation',
     tooltip: '功能强大的原子化css框架',
     desc: '',
   },
