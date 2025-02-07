@@ -4,7 +4,7 @@ export const codeTools: ICard2[] = [
     name: 'Bestofjs',
     img: '/images/tools/best-of-js.svg',
     src: 'https://bestofjs.org/',
-    desc: '前段框架库趋势',
+    desc: '前端框架库趋势',
     tooltip: '前端热门的开源项目',
   },
   {
@@ -248,6 +248,21 @@ export const codeGround: ICard2[] = [
     tooltip: '一个在线页面，用来比较不同 JS 代码的性能',
   },
 
+  // @ts-expect-error
+  {},
+]
+// AI
+export const AI: ICard2[] = [
+  {
+    name: 'siliconflow 硅基流动',
+    desc: '集合顶尖大模型的一站式云服务平台',
+    src: 'https://cloud.siliconflow.cn/models',
+  },
+  {
+    name: 'huggingface',
+    // desc: '集合顶尖大模型的一站式云服务平台',
+    src: 'https://huggingface.co/spaces',
+  },
   // @ts-expect-error
   {},
 ]

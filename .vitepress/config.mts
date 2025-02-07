@@ -8,7 +8,7 @@ export default defineConfigWithTheme ({
   srcDir: 'guide',
   // outDir: '../dist',
   metaChunk: true,
-  lastUpdated: true,
+  lastUpdated: false, // 是否显示最后更新时间
   extends: escookConfig,
   themeConfig: {
     search: {
@@ -60,7 +60,7 @@ export default defineConfigWithTheme ({
           src: '/nearby.mp3',
         },
       ],
-      autoplay: true,
+      autoplay: false,
     },
   },
   head: [['link', { rel: 'icon', href: '/lufei.png' }]],
