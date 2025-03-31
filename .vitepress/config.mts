@@ -77,7 +77,6 @@ export default defineConfigWithTheme ({
     },
     toc: { level: [1, 2] },
     config: (md) => {
-      // @ts-expect-error
       md.use(demoBlockPlugin)
     },
   },

@@ -57,12 +57,10 @@ import { vueList,reactList ,taobaoComs,TencentComs ,bytedanceComs ,otherComs ,cs
 
 ## 5. Icon
 <br />
-
 <CardList2 :cardList="iconList"/>
 
 ## 6. Libraries
 <CardList2 :cardList="libraryList"/>
 
 ## 7. Others
-
 <CardList2 :cardList="otherOfficial"/>

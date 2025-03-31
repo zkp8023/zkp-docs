@@ -54,7 +54,7 @@ export default {
   // background-color: #818cf8;
   background-image: linear-gradient(to left bottom, #747bff, #8586fc, #9492fa, #a29df7, #afa9f4, #b4adf2, #b9b0f1, #beb4ef, #bdb1ee, #bdadee, #bcaaed, #bca6ec);
   // background-image: linear-gradient( 135deg, #845EC2 10%, #465EFB 100%);
-  transition: all 0.3s;
+  transition: all 0.5s;
   font-weight: 400;
 }
 
@@ -75,7 +75,7 @@ export default {
   width: 100%;
   height: 100%;
   border-radius: 5px;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 .card:hover:after {
   content: attr(data-desc);
