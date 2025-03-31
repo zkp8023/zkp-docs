@@ -1,9 +1,10 @@
-import { defineConfig, presetAttributify, presetIcons, transformerDirectives, transformerVariantGroup } from 'unocss'
+import { defineConfig, presetAttributify, presetIcons, presetMini, transformerDirectives, transformerVariantGroup } from 'unocss'
 import { presetExtra } from 'unocss-preset-extra'
 import presetRemToPx from '@unocss/preset-rem-to-px'
 
 export default defineConfig({
   presets: [
+    presetMini(),
     presetIcons(),
     presetAttributify(),
     presetExtra(),
