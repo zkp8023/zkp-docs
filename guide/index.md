@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /webNav/official-website
+      link: /web/webNav/official-website
     - theme: alt
       text: 在 Gitee 上查看
       link: https://gitee.com/z-k-p/docs

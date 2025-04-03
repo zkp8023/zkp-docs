@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { onMounted, reactive, ref } from 'vue'
 import type { SortableOptions } from 'sortablejs'
 import Sortable from 'sortablejs'
+import { onMounted, reactive, ref } from 'vue'
 
 const options = reactive<SortableOptions>({
   animation: 300,
@@ -28,7 +28,7 @@ export default {
     <li v-for="it in items" :key="it" class="text-12px">
       拖拽 {{ it }}
       <!-- 这是拖拽手柄 -->
-      <span class="myHandle bg-red rounded-3px p3px">拖拽手柄</span>
+      <span class="myHandle rounded-3px bg-red p3px">拖拽手柄</span>
     </li>
   </ul>
 </template>

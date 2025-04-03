@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { onMounted, reactive, ref } from 'vue'
 import type { SortableOptions } from 'sortablejs'
 import Sortable from 'sortablejs'
+import { onMounted, reactive, ref } from 'vue'
 
 const options = reactive<SortableOptions>({
   animation: 300,

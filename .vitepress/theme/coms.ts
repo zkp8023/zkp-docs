@@ -1,8 +1,5 @@
 import Demo from 'vitepress-theme-demoblock/dist/client/components/Demo.vue'
 import DemoBlock from 'vitepress-theme-demoblock/dist/client/components/DemoBlock.vue'
-// 导入主题样式
-import 'vitepress-theme-demoblock/dist/theme/styles/index.css'
-
 // 导入自定义组件
 import {
   BothTransAndAnimate,
@@ -33,6 +30,9 @@ import {
   VueTransition,
 } from '../../examples'
 
+// 导入主题样式
+import 'vitepress-theme-demoblock/dist/theme/styles/index.css'
+
 // 处理组件自定义
 export default [
   Demo,
@@ -55,7 +55,7 @@ export default [
   CssDrag,
   FormExample,
   DynamicHeight,
-].map((com, i) => {
+].map((com: any, i) => {
   i === 0 && (com.name = 'Demo')
   return {
     name: com.name,

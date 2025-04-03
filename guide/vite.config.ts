@@ -1,8 +1,7 @@
-import { defineConfig } from 'vite'
 import Unocss from 'unocss/vite'
+import { defineConfig } from 'vite'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 import { demoblockVitePlugin } from 'vitepress-theme-demoblock'
-import viteCompression from 'vite-plugin-compression2'
 
 export default defineConfig(() => {
   return {
@@ -10,14 +9,19 @@ export default defineConfig(() => {
       Unocss(),
       ViteImageOptimizer(),
       demoblockVitePlugin(),
-      // viteCompression({
-      //   deleteOriginalAssets: true,
-      // }),
     ],
     resolve: {
       alias: {
         '@/ex': '../examples/',
         '@img': './images/',
+      },
+    },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern-compiler',
+          silenceDeprecations: ['legacy-js-api'],
+        },
       },
     },
     build: {
@@ -41,7 +45,7 @@ export default defineConfig(() => {
     },
     server: {
       port: 8023,
-      // open: true,
+      open: true,
       host: true,
     },
   }

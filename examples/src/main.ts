@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
 
-import 'ant-design-vue/dist/antd.css'
 import App from './App.vue'
-import plugins from './plugins'
 import { setupDirectives } from './directives'
+import plugins from './plugins'
+import 'ant-design-vue/dist/antd.css'
 import '../src/style'
 import 'animate.css'
 // svg-icon

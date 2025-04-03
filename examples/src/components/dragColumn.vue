@@ -32,7 +32,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="flex container">
+  <div class="container flex">
     <div class="left relative h-full max-w-400px min-w-200px w300px flex items-center justify-center bg-sky" resize>
       <img src="@/assets/lbxx.jpg" class="display is-align-center h-200px w-200px rounded-50%" alt="">
       <i class="target" />

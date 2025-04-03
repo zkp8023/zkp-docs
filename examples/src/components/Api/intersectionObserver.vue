@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
 import { message } from 'ant-design-vue'
+import { onMounted, ref } from 'vue'
 import LoadingCom from '../common/loading.vue'
 
 const values = ref(5)
@@ -63,7 +63,7 @@ export default {
   </div>
 </template>
 
-<style scoped lang="scss">
+<style scoped lang="less">
 ul {
   @apply w-full h400px bg-primary_light m-auto px10px overflow-auto;
 

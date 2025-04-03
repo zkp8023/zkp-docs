@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+
 const items = ref(['item1', 'item2', 'item3', 'item4'])
 </script>
 
@@ -11,15 +12,15 @@ export default {
 
 <template>
   <ul id="sortableDirective" v-sortable="{ handle: '.myHandle', filter: '.filter' }" class="flex gap-10px">
-    <li v-for="it in items" :key="it" class="text-12px item">
+    <li v-for="it in items" :key="it" class="item text-12px">
       <span>拖拽 {{ it }}</span>
       <!-- 这是拖拽手柄 -->
-      <span class="myHandle bg-red rounded-3px p3px">手柄</span>
+      <span class="myHandle rounded-3px bg-red p3px">手柄</span>
     </li>
-    <li class="text-12px filter">
+    <li class="filter text-12px">
       <span>filter</span>
       <!-- 这是拖拽手柄 -->
-      <span class="myHandle bg-red rounded-3px p3px">手柄</span>
+      <span class="myHandle rounded-3px bg-red p3px">手柄</span>
     </li>
   </ul>
 </template>

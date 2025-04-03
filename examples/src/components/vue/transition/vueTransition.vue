@@ -1,5 +1,6 @@
 <script setup lang='ts'>
 import { ref } from 'vue'
+
 const show = ref(true)
 const val = ref('100%')
 // 左滑
@@ -28,11 +29,11 @@ export default {
     <a-button @click="handleLeft">
       点击左滑
     </a-button>
-    <transition>
+    <Transition>
       <h1 v-show="show" class="bg-sky text-[#f00]!">
         给我一个div
       </h1>
-    </transition>
+    </Transition>
   </div>
 </template>
 

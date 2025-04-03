@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { Vue3SeamlessScroll } from 'vue3-seamless-scroll'
+
 const value = ref(true)
 const list = ref([
   {
@@ -52,12 +53,12 @@ export default {
   <a-button type="primary" @click="value = !value">
     {{ value ? 'STOP' : 'START' }}
   </a-button>
-  <vue3-seamless-scroll v-model="value" class="scroll" :list="list" hover>
+  <Vue3SeamlessScroll v-model="value" class="scroll" :list="list" hover>
     <div v-for="(item, index) in list" :key="index" class="item">
       <span>{{ item.title }}</span>
       <span>{{ item.date }}</span>
     </div>
-  </vue3-seamless-scroll>
+  </Vue3SeamlessScroll>
 </template>
 
 <style>

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+
 const isShow = ref(true)
 </script>
 
@@ -20,11 +21,11 @@ export default {
      :duration='{enter:2000,leave:1000}'  进入的时候2秒 退出的时候1秒
       -->
     <!-- type="animation" -->
-    <transition appear type="animation">
+    <Transition appear type="animation">
       <h1 v-show="isShow" class="bg-sky text-[#f00]">
         给我一个div
       </h1>
-    </transition>
+    </Transition>
   </div>
 </template>
 

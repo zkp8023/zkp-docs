@@ -1,6 +1,6 @@
+import presetRemToPx from '@unocss/preset-rem-to-px'
 import { defineConfig, presetAttributify, presetIcons, presetMini, transformerDirectives, transformerVariantGroup } from 'unocss'
 import { presetExtra } from 'unocss-preset-extra'
-import presetRemToPx from '@unocss/preset-rem-to-px'
 
 export default defineConfig({
   presets: [
@@ -8,6 +8,7 @@ export default defineConfig({
     presetIcons(),
     presetAttributify(),
     presetExtra(),
+    // @ts-expect-error
     presetRemToPx({
       baseFontSize: 4,
     }),

@@ -1,3 +1,3 @@
 import '@unocss/reset/normalize.css'
-import 'uno.css'
+import 'virtual:uno.css'
 import './index.scss'

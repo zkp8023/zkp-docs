@@ -1,7 +1,7 @@
-import { h } from 'vue'
-import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
 import escookTheme from '@escook/vitepress-theme'
+import DefaultTheme from 'vitepress/theme'
+import { h } from 'vue'
 import { useComponents } from './useComponents'
 // 2. 导入配套的 CSS 样式（此步骤不能省略）
 import '@escook/vitepress-theme/style.css'

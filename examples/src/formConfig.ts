@@ -1,7 +1,9 @@
-// 上传文件组件变化的事件
-import { ElMessage, type UploadFile, type UploadFiles } from 'element-plus'
-import { ref } from 'vue'
+import type { UploadFile, UploadFiles } from 'element-plus'
 import type { IFormSchema } from './components/form/element-plus/types'
+// 上传文件组件变化的事件
+import { ElMessage } from 'element-plus'
+import { ref } from 'vue'
+
 export const useFormConfig = () => {
   const modelData = ref<any>({ age: '这是详情或预览展示的age属性值' })
   // 上传文件变化
@@ -118,7 +120,7 @@ export const useFormConfig = () => {
       /**
        * 联动列，指定render函数，返回boolean来指定当前列是否显示
        * item:当前列    model：表单绑定的数据
-       * */
+       */
       {
         formItem: {
           label: '这是什么爱好？',
