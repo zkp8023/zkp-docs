@@ -1,5 +1,10 @@
 export const githubList: ICard[] = [
   {
+    name: 'Hello Github',
+    desc: '精选各种编程语言github项目',
+    src: 'https://hellogithub.com/',
+  },
+  {
     name: '前端Github,面试,资源,工具,项目,源码...',
     desc: '前端资源仓库',
     src: 'https://github.com/FrontEndGitHub/FrontEndGitHub',

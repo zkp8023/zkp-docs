@@ -283,7 +283,7 @@ export const other: ICard2[] = [
     name: '爱达杂货铺',
     desc: '酷站,素材,工具...',
     img: '/images/tools/aida.svg',
-    src: 'https://adzhp.site/',
+    src: 'https://adzhp.cn',
     tooltip: '酷站,素材,工具,软件资源,影视...',
   },
   {
