@@ -120,4 +120,8 @@ export const otherOfficial: ICard2[] = [
     img: '/images/official/socketIo.svg',
     src: 'https://socket.nodejs.cn/',
   },
+  // @ts-expect-error
+  {},
+  // @ts-expect-error
+  {},
 ]

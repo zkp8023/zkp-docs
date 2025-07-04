@@ -10,7 +10,7 @@ export const openSourceList: ICard2[] = [
     img: '/images/other/vben.png',
     desc: '老牌强大的后台模板',
     tooltip: 'Vite + Vue3  + Antdv + TS + Pinia + UnoCss',
-    src: 'https://doc.vvbin.cn/',
+    src: 'https://doc.vben.pro/',
   },
   {
     name: 'RuoYi',
@@ -32,7 +32,7 @@ export const openSourceList: ICard2[] = [
     img: '/images/other/soybean.svg',
     desc: ' Unocss、 Naive UI',
     tooltip: 'Vite + Vue3 + Unocss + Naive UI + TS + Pinia',
-    src: 'https://docs.soybean.pro/zh/guide/introduction.html',
+    src: 'https://docs.soybeanjs.cn/zh/',
   },
   {
     name: 'Pure Admin',
